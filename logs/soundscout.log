@@ -1,0 +1,262 @@
+2025-04-08 10:14:39,117 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX2L0iB23Enbq/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:14:39,117 - ERROR - Error generating reports: invalid literal for int() with base 10: '100K'
+2025-04-08 10:15:47,284 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX2L0iB23Enbq/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:15:47,444 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:15:47,444 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:15:47,444 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:15:47,451 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:15:47,452 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/d1qrz05e.json
+2025-04-08 10:15:47,452 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/87wo8qwi.json
+2025-04-08 10:15:47,453 - DEBUG - idx 0
+2025-04-08 10:15:47,453 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:15:47,453 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=91286', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/d1qrz05e.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/87wo8qwi.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/prophet_modelovn_45md/prophet_model-20250408101547.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:15:47,453 - INFO - Chain [1] start processing
+2025-04-08 10:15:50,386 - INFO - Chain [1] done processing
+2025-04-08 10:15:50,404 - INFO - Report generated for Indie Pop and saved to soundscout_indie_pop.txt
+2025-04-08 10:15:50,887 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX1lVhptIYRda/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:15:50,890 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:15:50,890 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:15:50,890 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:15:50,897 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:15:50,897 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/b3lbqykx.json
+2025-04-08 10:15:50,898 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/wfvf9py4.json
+2025-04-08 10:15:50,898 - DEBUG - idx 0
+2025-04-08 10:15:50,898 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:15:50,898 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=72479', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/b3lbqykx.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/wfvf9py4.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/prophet_model8es600ip/prophet_model-20250408101550.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:15:50,898 - INFO - Chain [1] start processing
+2025-04-08 10:15:51,040 - INFO - Chain [1] done processing
+2025-04-08 10:15:51,055 - INFO - Report generated for Country and saved to soundscout_country.txt
+2025-04-08 10:15:51,469 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX0XUsuxWHRQd/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:15:51,472 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:15:51,472 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:15:51,472 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:15:51,475 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:15:51,476 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/ii_9jlrv.json
+2025-04-08 10:15:51,477 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/ssab1kwl.json
+2025-04-08 10:15:51,477 - DEBUG - idx 0
+2025-04-08 10:15:51,477 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:15:51,477 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=91806', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/ii_9jlrv.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/ssab1kwl.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/prophet_modelggshci7q/prophet_model-20250408101551.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:15:51,477 - INFO - Chain [1] start processing
+2025-04-08 10:15:51,622 - INFO - Chain [1] done processing
+2025-04-08 10:15:51,636 - INFO - Report generated for Hip-Hop and saved to soundscout_hip-hop.txt
+2025-04-08 10:15:51,921 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DXcF6B6QCTT9T/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:15:51,925 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:15:51,925 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:15:51,925 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:15:51,929 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:15:51,930 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/7yqzrvqy.json
+2025-04-08 10:15:51,931 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/bzr7i0vn.json
+2025-04-08 10:15:51,931 - DEBUG - idx 0
+2025-04-08 10:15:51,931 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:15:51,931 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=44840', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/7yqzrvqy.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/bzr7i0vn.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/prophet_modelc9vnlx5p/prophet_model-20250408101551.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:15:51,931 - INFO - Chain [1] start processing
+2025-04-08 10:15:52,080 - INFO - Chain [1] done processing
+2025-04-08 10:15:52,095 - INFO - Report generated for Rock and saved to soundscout_rock.txt
+2025-04-08 10:15:52,296 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX9HwI3CrikLt/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:15:52,299 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:15:52,299 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:15:52,299 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:15:52,303 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:15:52,304 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/uyr6zj6w.json
+2025-04-08 10:15:52,304 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/pifhyghh.json
+2025-04-08 10:15:52,305 - DEBUG - idx 0
+2025-04-08 10:15:52,305 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:15:52,305 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=75136', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/uyr6zj6w.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/pifhyghh.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpjjr2ezwe/prophet_model5li7cr2j/prophet_model-20250408101552.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:15:52,305 - INFO - Chain [1] start processing
+2025-04-08 10:15:52,452 - INFO - Chain [1] done processing
+2025-04-08 10:15:52,466 - INFO - Report generated for Folk and saved to soundscout_folk.txt
+2025-04-08 10:17:10,364 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX2L0iB23Enbq/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:17:10,407 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:17:10,407 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:17:10,407 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:17:10,414 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:17:10,415 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/00ynyj_9.json
+2025-04-08 10:17:10,415 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/sl5vwxvb.json
+2025-04-08 10:17:10,416 - DEBUG - idx 0
+2025-04-08 10:17:10,416 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:17:10,416 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=62601', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/00ynyj_9.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/sl5vwxvb.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/prophet_modelsvpmq17x/prophet_model-20250408101710.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:17:10,416 - INFO - Chain [1] start processing
+2025-04-08 10:17:10,557 - INFO - Chain [1] done processing
+2025-04-08 10:17:10,573 - INFO - Report generated for Indie Pop and saved to soundscout_indie_pop.txt
+2025-04-08 10:17:11,009 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX1lVhptIYRda/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:17:11,014 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:17:11,014 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:17:11,014 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:17:11,020 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:17:11,021 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/mna3x99s.json
+2025-04-08 10:17:11,022 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/alcbkda1.json
+2025-04-08 10:17:11,022 - DEBUG - idx 0
+2025-04-08 10:17:11,022 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:17:11,022 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=57592', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/mna3x99s.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/alcbkda1.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/prophet_model7y7fyqun/prophet_model-20250408101711.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:17:11,022 - INFO - Chain [1] start processing
+2025-04-08 10:17:11,171 - INFO - Chain [1] done processing
+2025-04-08 10:17:11,185 - INFO - Report generated for Country and saved to soundscout_country.txt
+2025-04-08 10:17:11,655 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX0XUsuxWHRQd/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:17:11,663 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:17:11,663 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:17:11,663 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:17:11,671 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:17:11,672 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/46gzdes4.json
+2025-04-08 10:17:11,673 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/ex19roop.json
+2025-04-08 10:17:11,674 - DEBUG - idx 0
+2025-04-08 10:17:11,674 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:17:11,674 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=22670', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/46gzdes4.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/ex19roop.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/prophet_modeleb83r47r/prophet_model-20250408101711.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:17:11,674 - INFO - Chain [1] start processing
+2025-04-08 10:17:11,829 - INFO - Chain [1] done processing
+2025-04-08 10:17:11,843 - INFO - Report generated for Hip-Hop and saved to soundscout_hip-hop.txt
+2025-04-08 10:17:12,063 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DXcF6B6QCTT9T/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:17:12,068 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:17:12,068 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:17:12,068 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:17:12,074 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:17:12,075 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/u4i_jzu9.json
+2025-04-08 10:17:12,075 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/eu5ed8dy.json
+2025-04-08 10:17:12,076 - DEBUG - idx 0
+2025-04-08 10:17:12,076 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:17:12,076 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=17914', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/u4i_jzu9.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/eu5ed8dy.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/prophet_modelia91j1wm/prophet_model-20250408101712.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:17:12,076 - INFO - Chain [1] start processing
+2025-04-08 10:17:12,253 - INFO - Chain [1] done processing
+2025-04-08 10:17:12,267 - INFO - Report generated for Rock and saved to soundscout_rock.txt
+2025-04-08 10:17:12,464 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX9HwI3CrikLt/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:17:12,469 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:17:12,469 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:17:12,469 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:17:12,474 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:17:12,475 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/fzioozjt.json
+2025-04-08 10:17:12,476 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/hpxyppza.json
+2025-04-08 10:17:12,476 - DEBUG - idx 0
+2025-04-08 10:17:12,476 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:17:12,476 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=18501', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/fzioozjt.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/hpxyppza.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmp64hsexgs/prophet_modelrne5w50i/prophet_model-20250408101712.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:17:12,476 - INFO - Chain [1] start processing
+2025-04-08 10:17:12,627 - INFO - Chain [1] done processing
+2025-04-08 10:17:12,641 - INFO - Report generated for Folk and saved to soundscout_folk.txt
+2025-04-08 10:19:02,466 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX2L0iB23Enbq/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:19:02,502 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:19:02,502 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:19:02,503 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:19:02,508 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:19:02,509 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/4ohn15vl.json
+2025-04-08 10:19:02,509 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/yppaqapt.json
+2025-04-08 10:19:02,510 - DEBUG - idx 0
+2025-04-08 10:19:02,510 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:19:02,510 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=64731', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/4ohn15vl.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/yppaqapt.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/prophet_model87j8u8n7/prophet_model-20250408101902.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:19:02,510 - INFO - Chain [1] start processing
+2025-04-08 10:19:02,654 - INFO - Chain [1] done processing
+2025-04-08 10:19:02,670 - INFO - Report generated for Indie Pop and saved to soundscout_indie_pop.txt
+2025-04-08 10:19:03,120 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX1lVhptIYRda/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:19:03,125 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:19:03,125 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:19:03,125 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:19:03,131 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:19:03,132 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/42zmt6sz.json
+2025-04-08 10:19:03,133 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/6b54sqk0.json
+2025-04-08 10:19:03,133 - DEBUG - idx 0
+2025-04-08 10:19:03,133 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:19:03,133 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=77678', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/42zmt6sz.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/6b54sqk0.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/prophet_modela3o_2o59/prophet_model-20250408101903.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:19:03,133 - INFO - Chain [1] start processing
+2025-04-08 10:19:03,284 - INFO - Chain [1] done processing
+2025-04-08 10:19:03,297 - INFO - Report generated for Country and saved to soundscout_country.txt
+2025-04-08 10:19:03,854 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX0XUsuxWHRQd/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:19:03,859 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:19:03,859 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:19:03,859 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:19:03,865 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:19:03,866 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/uni47kgk.json
+2025-04-08 10:19:03,867 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/xl_738j_.json
+2025-04-08 10:19:03,867 - DEBUG - idx 0
+2025-04-08 10:19:03,867 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:19:03,868 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=30344', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/uni47kgk.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/xl_738j_.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/prophet_modelkwz9lzl3/prophet_model-20250408101903.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:19:03,868 - INFO - Chain [1] start processing
+2025-04-08 10:19:04,018 - INFO - Chain [1] done processing
+2025-04-08 10:19:04,031 - INFO - Report generated for Hip-Hop and saved to soundscout_hip_hop.txt
+2025-04-08 10:19:04,224 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DXcF6B6QCTT9T/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:19:04,228 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:19:04,228 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:19:04,228 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:19:04,232 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:19:04,233 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/j8gshexe.json
+2025-04-08 10:19:04,233 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/axzzhq8z.json
+2025-04-08 10:19:04,234 - DEBUG - idx 0
+2025-04-08 10:19:04,234 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:19:04,234 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=88904', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/j8gshexe.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/axzzhq8z.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/prophet_modelsdj_ewqg/prophet_model-20250408101904.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:19:04,234 - INFO - Chain [1] start processing
+2025-04-08 10:19:04,388 - INFO - Chain [1] done processing
+2025-04-08 10:19:04,405 - INFO - Report generated for Rock and saved to soundscout_rock.txt
+2025-04-08 10:19:04,606 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX9HwI3CrikLt/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:19:04,609 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:19:04,609 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:19:04,609 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:19:04,611 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:19:04,612 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/63p6hvmd.json
+2025-04-08 10:19:04,612 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/q9soh1du.json
+2025-04-08 10:19:04,612 - DEBUG - idx 0
+2025-04-08 10:19:04,612 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:19:04,612 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=40341', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/63p6hvmd.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/q9soh1du.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpaw2t84o6/prophet_model0makabdj/prophet_model-20250408101904.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:19:04,613 - INFO - Chain [1] start processing
+2025-04-08 10:19:04,752 - INFO - Chain [1] done processing
+2025-04-08 10:19:04,766 - INFO - Report generated for Folk and saved to soundscout_folk.txt
+2025-04-08 10:21:13,823 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX2L0iB23Enbq/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:21:13,878 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:21:13,878 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:21:13,878 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:21:13,886 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:21:13,887 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/7hhx5616.json
+2025-04-08 10:21:13,887 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/750at3oo.json
+2025-04-08 10:21:13,888 - DEBUG - idx 0
+2025-04-08 10:21:13,888 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:21:13,888 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=31428', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/7hhx5616.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/750at3oo.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/prophet_modelwjhr_sl1/prophet_model-20250408102113.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:21:13,888 - INFO - Chain [1] start processing
+2025-04-08 10:21:14,037 - INFO - Chain [1] done processing
+2025-04-08 10:21:14,055 - INFO - Report generated for Indie Pop and saved to soundscout_indie_pop.txt
+2025-04-08 10:21:14,494 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX1lVhptIYRda/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:21:14,499 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:21:14,500 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:21:14,500 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:21:14,505 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:21:14,506 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/9m59il0z.json
+2025-04-08 10:21:14,507 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/qa6wygb9.json
+2025-04-08 10:21:14,507 - DEBUG - idx 0
+2025-04-08 10:21:14,507 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:21:14,507 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=39709', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/9m59il0z.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/qa6wygb9.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/prophet_modelc6e35nde/prophet_model-20250408102114.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:21:14,507 - INFO - Chain [1] start processing
+2025-04-08 10:21:14,659 - INFO - Chain [1] done processing
+2025-04-08 10:21:14,672 - INFO - Report generated for Country and saved to soundscout_country.txt
+2025-04-08 10:21:15,091 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX0XUsuxWHRQd/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:21:15,099 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:21:15,099 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:21:15,099 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:21:15,107 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:21:15,108 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/tzh8e5wq.json
+2025-04-08 10:21:15,109 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/ub_7wc4w.json
+2025-04-08 10:21:15,110 - DEBUG - idx 0
+2025-04-08 10:21:15,110 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:21:15,110 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=97875', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/tzh8e5wq.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/ub_7wc4w.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/prophet_modelmid_t3ld/prophet_model-20250408102115.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:21:15,110 - INFO - Chain [1] start processing
+2025-04-08 10:21:15,265 - INFO - Chain [1] done processing
+2025-04-08 10:21:15,279 - INFO - Report generated for Hip-Hop and saved to soundscout_hip_hop.txt
+2025-04-08 10:21:15,479 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DXcF6B6QCTT9T/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:21:15,482 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:21:15,482 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:21:15,482 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:21:15,485 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:21:15,486 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/l_0x_iuv.json
+2025-04-08 10:21:15,486 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/8jy2hpy0.json
+2025-04-08 10:21:15,487 - DEBUG - idx 0
+2025-04-08 10:21:15,487 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:21:15,487 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=39430', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/l_0x_iuv.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/8jy2hpy0.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/prophet_modelu1gymch4/prophet_model-20250408102115.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:21:15,487 - INFO - Chain [1] start processing
+2025-04-08 10:21:15,631 - INFO - Chain [1] done processing
+2025-04-08 10:21:15,644 - INFO - Report generated for Rock and saved to soundscout_rock.txt
+2025-04-08 10:21:15,857 - ERROR - HTTP Error for GET to https://api.spotify.com/v1/playlists/37i9dQZF1DX9HwI3CrikLt/tracks with Params: {'limit': 100, 'offset': 0, 'fields': None, 'market': None, 'additional_types': 'track'} returned 404 due to Resource not found
+2025-04-08 10:21:15,861 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2025-04-08 10:21:15,861 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2025-04-08 10:21:15,861 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2025-04-08 10:21:15,865 - INFO - n_changepoints greater than number of observations. Using 0.
+2025-04-08 10:21:15,866 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/3ap5q251.json
+2025-04-08 10:21:15,866 - DEBUG - input tempfile: /var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/0y0cqov2.json
+2025-04-08 10:21:15,866 - DEBUG - idx 0
+2025-04-08 10:21:15,866 - DEBUG - running CmdStan, num_threads: None
+2025-04-08 10:21:15,866 - DEBUG - CmdStan args: ['/Users/abdulrazaque/Downloads/Projects/upworkproject/soundscout_ai/venv/lib/python3.12/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=32169', 'data', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/3ap5q251.json', 'init=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/0y0cqov2.json', 'output', 'file=/var/folders/bj/b7wk_nkx3b3g8ky2jhcjkyv00000gn/T/tmpnb26nvtl/prophet_model58bv1glr/prophet_model-20250408102115.csv', 'method=optimize', 'algorithm=newton', 'iter=10000']
+2025-04-08 10:21:15,867 - INFO - Chain [1] start processing
+2025-04-08 10:21:16,012 - INFO - Chain [1] done processing
+2025-04-08 10:21:16,026 - INFO - Report generated for Folk and saved to soundscout_folk.txt
